@@ -9,14 +9,14 @@ buildscript {
 }
 
 plugins {
-    id "org.sonarqube" version "3.4.0.2513"
+    id "org.sonarqube" version "4.2.1.3168"
     id "jacoco"
 }
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "UQdeco2800_game-engine"
-        property "sonar.organization", "uqdeco2800-test"
+        property "sonar.projectKey", "UQcsse3200_2023-studio-1"
+        property "sonar.organization", "uqcsse3200"
         property "sonar.host.url", "https://sonarcloud.io"
     }
 }
@@ -28,7 +28,7 @@ allprojects {
 
     version = '1.0'
     ext {
-        appName = "deco2800-game"
+        appName = "csse3200-game"
         gdxVersion = '1.11.0'
         roboVMVersion = '2.3.16'
         box2DLightsVersion = '1.5'
